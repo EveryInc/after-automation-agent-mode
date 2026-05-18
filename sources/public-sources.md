@@ -9,6 +9,15 @@ This file should contain public sources only. Do not add Slack, Notion, Drive, p
 - [Agent-native Product Management guide](https://every.to/guides/ai-product-management-guide)
 - [Compound Engineering: How Every Codes With Agents](https://every.to/source-code/compound-engineering-how-every-codes-with-agents-af3a1bae-cf9b-458e-8048-c6b4ba860e62)
 - [Codex Camp](https://every.to/events/codex-camp)
+- [One App to Rule All Knowledge Work](https://every.to/context-window/one-app-to-rule-all-knowledge-work)
+- [The Dawn of Codex-native Apps](https://every.to/context-window/the-dawn-of-codex-native-apps)
+- [Mining Your Life for Context](https://every.to/context-window/mining-your-life-for-context)
+- [Claude Code for Product Managers](https://every.to/p/claude-code-for-product-managers)
+- [Transcript: Why We Switched From Claude Code to Codex](https://every.to/podcast/transcript-why-we-switched-from-claude-code-to-codex)
+- [Codex Goes to Work](https://every.to/context-window/codex-goes-to-work)
+- [Mini-Vibe Check: Claude Design Isn't for Designers-Yet](https://every.to/context-window/mini-vibe-check-claude-design)
+- [You're the Manager Now](https://every.to/context-window/you-re-the-manager-now)
+- [The Folder Is the Agent](https://every.to/source-code/the-folder-is-the-agent)
 - [Vibe Code Camp](https://www.youtube.com/watch?v=5YBjll9XJlw)
 - [Introducing Proof](https://every.to/on-every/introducing-proof)
 - [Smuggled Intelligence](https://every.to/chain-of-thought/smuggled-intelligence)
@@ -30,4 +39,3 @@ This file should contain public sources only. Do not add Slack, Notion, Drive, p
 - Senior Engineer benchmark packet, if made public.
 - Exact quote/source for William James.
 - Exact quote/source for Werner Heisenberg.
-

@@ -76,8 +76,9 @@ This is a curated launch index, not the full source archive.
 ### 11. Every internal AI-native workflows
 
 - **Status:** public-safe-summary.
-- **Summary:** Every uses agents across coding, writing, operations, customer support, and design. The useful pattern is not "AI does all the work"; it is human framing, agent execution, and expert review.
+- **Summary:** Every uses agents across coding, writing, operations, customer support, design, product management, inbox work, source mining, security monitoring, and growth workflows. The useful pattern is not "AI does all the work"; it is human framing, agent execution, expert review, and compounding into reusable artifacts.
 - **Supports:** Every as an inside-view anomaly.
+- **Use with:** `case-studies/every-ai-native-workflows.md`.
 
 ### 12. Compound Engineering
 
@@ -85,3 +86,44 @@ This is a curated launch index, not the full source archive.
 - **Summary:** Every's engineering method turns agent work into a loop: plan, work, review, compound. It is a practical example of human-agent work moving up a level.
 - **Supports:** new expert work emerges around framing, review, and compounding systems.
 
+### 13. Codex as knowledge-work operating system
+
+- **Status:** public.
+- **Summary:** Recent Every coverage shows Codex moving beyond code into email triage, go-to-market planning, KPI tracking, recruiting, business-document review, and tool-building. The pattern is a project folder plus connectors plus review in the destination app.
+- **Supports:** coding agents are becoming general-purpose knowledge-work agents.
+- **Use with:** `workflows/codex-power-user-workflow.md`, `case-studies/every-ai-native-workflows.md`.
+
+### 14. Dan's Codex inbox workflow
+
+- **Status:** public.
+- **Summary:** Dan's inbox-zero workflow uses a one-page operating manual, Codex, Cora, and a Proof document. The agent sweeps the inbox and drafts decisions, while the human reviews in a visible shared document before anything sends.
+- **Supports:** delegation and close collaboration are different modes, and serious workflows need visible review loops.
+- **Use with:** `case-studies/every-ai-native-workflows.md`.
+
+### 15. Mining scattered thinking before drafting
+
+- **Status:** public.
+- **Summary:** A recent Context Window workflow recommends connecting an agent to Slack, Notion, Drive, meeting transcripts, and voice notes, then asking it to find what you have already said on a topic and turn the strongest threads into a draft outline.
+- **Supports:** AI creates leverage when it helps retrieve and structure human judgment, not when it invents generic prose from scratch.
+- **Use with:** `case-studies/every-ai-native-workflows.md`.
+
+### 16. Agent watchdog workflows
+
+- **Status:** public.
+- **Summary:** Every describes assigning an agent a bounded monitoring job, such as reading a curated feed for AI-stack vulnerabilities and surfacing relevant alerts.
+- **Supports:** agents are useful when source set, output, cadence, and human response ownership are explicit.
+- **Use with:** `case-studies/every-ai-native-workflows.md`.
+
+### 17. The folder as the agent interface
+
+- **Status:** public.
+- **Summary:** Every's recent writing on folder-based agents shows a practical pattern: agents become useful when a project folder contains instructions, architecture/context docs, prompts, and source files in a stable reading order.
+- **Supports:** agent work compounds when context is stored as files, not trapped in one-off chats.
+- **Use with:** `case-studies/every-ai-native-workflows.md`, `workflows/codex-power-user-workflow.md`.
+
+### 18. Confidence check before shipping
+
+- **Status:** public.
+- **Summary:** Austin's confidence-check workflow asks an agent to rate its confidence before shipping and to find improvements if confidence is below the threshold. The point is not that the number is objectively true; it is that the agent must surface uncertainty and improve before handoff.
+- **Supports:** human-plus-agent workflows need explicit review gates.
+- **Use with:** `case-studies/every-ai-native-workflows.md`.
