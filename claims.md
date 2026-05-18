@@ -1,4 +1,4 @@
-# Claims Map
+# Claims map
 
 This is the canonical retrieval map for the repo. Agents should use this file before pulling evidence from other files.
 
@@ -15,7 +15,7 @@ This is the canonical retrieval map for the repo. Agents should use this file be
 
 ## Claim 2: Benchmarks measure work inside a frame
 
-- **Status:** public-safe summary
+- **Status:** public summary
 - **Confidence:** high as a conceptual claim, medium for specific benchmark examples until final provenance is checked.
 - **Best evidence:** GDPVal task prompts, Senior Engineer benchmark prompt iteration, METR task definitions.
 - **Strongest counterargument:** future models may learn to reframe tasks more reliably, reducing the gap.
@@ -26,9 +26,9 @@ This is the canonical retrieval map for the repo. Agents should use this file be
 
 ## Claim 3: Cheap competence creates more attempts
 
-- **Status:** public-safe summary
+- **Status:** public summary
 - **Confidence:** high.
-- **Best evidence:** Every's internal experience with non-engineers filing PRs, marketers making creative assets, engineers writing guides, and the broader explosion of AI-assisted output.
+- **Best evidence:** Every's experience with non-engineers filing PRs, marketers making creative assets, engineers writing guides, and the broader explosion of AI-assisted output.
 - **Strongest counterargument:** in some domains, organizations may use cheap competence to reduce headcount rather than increase output.
 - **What this does not prove:** it does not prove every worker benefits from the transition.
 - **What would change the conclusion:** evidence that most organizations hold output constant and only reduce labor after AI adoption.
@@ -37,7 +37,7 @@ This is the canonical retrieval map for the repo. Agents should use this file be
 
 ## Claim 4: Demand for difference is new demand for experts
 
-- **Status:** public-safe summary
+- **Status:** public summary
 - **Confidence:** medium-high.
 - **Best evidence:** design, writing, customer support, technical review, and agent-workflow examples where generic AI output increases the need for taste, review, context, and integration.
 - **Strongest counterargument:** some markets may accept cheaper sameness and reduce demand for experts.

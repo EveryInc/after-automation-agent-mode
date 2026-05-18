@@ -1,8 +1,8 @@
-# Every AI-Native Workflows
+# Every AI-native workflows
 
-These are public-safe patterns from how Every works with agents. They are included so readers can steal the operating model, not because every detail is ready to publish as a case study.
+These are public patterns from how Every works with agents. They are included so readers can steal the operating model, not just read about it.
 
-## The Common Pattern
+## The common pattern
 
 Across coding, writing, support, events, product, and design, the useful pattern is:
 
@@ -13,21 +13,21 @@ Across coding, writing, support, events, product, and design, the useful pattern
 
 That is the practical meaning of "demand for difference is new demand for experts."
 
-## Recent Public Workflows To Steal
+## Recent public workflows to steal
 
-These examples were checked against Every's public archive via the Every MCP on 2026-05-18. They are useful GitHub-facing proof because they are recent, public, and practical.
+These examples are recent, public, and practical.
 
-| Date | Public example | Workflow to steal | Why it matters for the manifesto |
+| Date | Public example | Workflow to steal | Why it matters for the essay |
 |---|---|---|---|
 | 2026-05-13 | ["Mining Your Life for Context"](https://every.to/context-window/mining-your-life-for-context) | Connect the places where your thinking already lives, ask an agent to find everything you have said about a topic, group the strongest threads, cite sources, and turn them into an outline. | The agent does not replace judgment; it retrieves and structures the human's existing judgment. |
 | 2026-05-12 | ["The Fallacy of the 16-hour Agent"](https://every.to/context-window/the-fallacy-of-the-16-hour-agent) | Improve an agent skill by writing 10 eval cases first, including cases that should not trigger the skill, then turn failures into standing lessons. | Long-running agents need tests, guardrails, and review signals, not just more runtime. |
-| 2026-05-05 | ["The Dawn of Codex-native Apps"](https://every.to/context-window/the-dawn-of-codex-native-apps) | Write a one-page inbox operating manual, let Codex work through the inbox in Cora, and keep every draft and decision visible in a Proof document before sending. | Delegation works when the human review loop stays visible and accountable. |
+| 2026-05-05 | ["The Dawn of Codex-native Apps"](https://every.to/context-window/the-dawn-of-codex-native-apps) | Write a one-page inbox operating manual, let a coding agent work through the inbox in Cora, and keep every draft and decision visible in a Proof document before sending. | Delegation works when the human review loop stays visible and accountable. |
 | 2026-04-29 | ["Compute Is the New Cash"](https://every.to/context-window/compute-is-the-new-cash) | Turn support feedback into Linear issues, use triage intelligence to deduplicate related requests, then route small issues to a coding agent and larger ones to a closer human-agent loop. | Agents increase product throughput, but prioritization and product judgment stay human. |
-| 2026-04-28 | ["One App to Rule All Knowledge Work"](https://every.to/context-window/one-app-to-rule-all-knowledge-work) | Give Codex access to the tools you actually use, ask it to identify five automations that would remove friction, run the easiest one for a week, and audit the misses. | The best use cases often come from inspecting real work, not imagining abstract prompts. |
+| 2026-04-28 | ["One App to Rule All Knowledge Work"](https://every.to/context-window/one-app-to-rule-all-knowledge-work) | Give a coding agent access to the tools you use, ask it to identify five automations that would remove friction, run the easiest one for a week, and audit the misses. | The best use cases often come from inspecting real work, not imagining abstract prompts. |
 | 2026-04-24 | ["Model Wars"](https://every.to/context-window/model-wars) | Screen-record a product flow, ask a model to storyboard from the real UI, iterate on the storyboard, then have a coding agent build the video in Remotion. | The human supplies taste and ground truth; the agent turns that frame into a polished artifact. |
 | 2026-04-21 | ["Mini-Vibe Check: Claude Design Isn't for Designers-Yet"](https://every.to/context-window/mini-vibe-check-claude-design) | Give an agent a dedicated X feed of trusted AI security sources, run scheduled scans, and route relevant vulnerability alerts to Slack with severity tags. | Bounded monitoring is useful when the source set, cadence, output, and human owner are explicit. |
 
-## Pattern 1: Compound Engineering
+## Pattern 1: Compound engineering
 
 **What the agent does:** drafts plans, writes code, runs tests, reviews diffs, searches prior learnings, and captures reusable solutions.
 
@@ -37,19 +37,19 @@ These examples were checked against Every's public archive via the Every MCP on 
 
 **Public sources:** Compound Engineering guide, Compound Engineering plugin, Source Code essays.
 
-## Pattern 2: Codex As A Knowledge-Work Operating System
+## Pattern 2: Coding agents as knowledge-work operating systems
 
-**Recent example:** In "One App to Rule All Knowledge Work," Every describes Austin running most of his daily workflow through Codex: email triage, go-to-market planning, KPI tracking, recruiting, and business-document review.
+**Recent example:** In "One App to Rule All Knowledge Work," Every describes Austin running most of his daily workflow through a coding agent: email triage, go-to-market planning, KPI tracking, recruiting, and business-document review.
 
 **What the agent does:** searches project context, drafts and reviews assets, builds small tools, analyzes data, and catches confidently wrong plans by checking against compound knowledge.
 
-**What the human does:** chooses which work belongs in Codex, reviews final outputs in the destination app, decides when to use connectors, and keeps the agent focused on the actual business artifact.
+**What the human does:** chooses which work belongs in the agent environment, reviews final outputs in the destination app, decides when to use connectors, and keeps the agent focused on the actual business artifact.
 
 **What readers can steal:** move one recurring knowledge-work loop out of scattered browser tabs and into a project folder with instructions, source files, and review rules. Review the final output where it will actually live: the email client, doc, spreadsheet, GitHub PR, CRM, or publishing system.
 
 **Public source:** "One App to Rule All Knowledge Work."
 
-## Pattern 3: The Folder Is The Agent
+## Pattern 3: The folder is the agent
 
 **Recent example:** In "The Folder Is the Agent," Kieran describes running many agents by pointing each one at a folder with the right instructions, architecture notes, prompts, and context files.
 
@@ -61,7 +61,7 @@ These examples were checked against Every's public archive via the Every MCP on 
 
 **Public source:** "The Folder Is the Agent."
 
-## Pattern 4: Agent-Native Product Management
+## Pattern 4: Agent-native product management
 
 **What the agent does:** turns research, transcripts, specs, docs, and user feedback into structured decisions, requirements, and execution plans.
 
@@ -69,11 +69,11 @@ These examples were checked against Every's public archive via the Every MCP on 
 
 **What readers can steal:** use agents to expand and stress-test product thinking, but keep ownership of the problem frame. The PM's leverage moves toward framing, sequencing, and judgment.
 
-**Public sources:** Agent-native Product Management guide, Claude Code for Product Managers, Codex and Cowork coverage.
+**Public sources:** Agent-native Product Management guide, Claude Code for Product Managers, Codex, and Cowork coverage.
 
-## Pattern 5: Codex Inbox Zero
+## Pattern 5: Agent inbox zero
 
-**Recent example:** In "The Dawn of Codex-native Apps," Dan's inbox workflow uses a one-page operating manual, Codex, Cora, and a Proof document so the agent can sweep the inbox while decisions stay visible.
+**Recent example:** In "The Dawn of Codex-native Apps," Dan's inbox workflow uses a one-page operating manual, a coding agent, Cora, and a Proof document so the agent can sweep the inbox while decisions stay visible.
 
 **What the agent does:** follows rules for VIPs, auto-archiving, scheduling, summaries, and drafts; operates in the inbox; records every decision and draft in a shared document.
 
@@ -83,7 +83,7 @@ These examples were checked against Every's public archive via the Every MCP on 
 
 **Public source:** "The Dawn of Codex-native Apps."
 
-## Pattern 6: Mine Scattered Thinking Before Drafting
+## Pattern 6: Mine scattered thinking before drafting
 
 **Recent example:** In "Mining Your Life for Context," Every describes a workflow for turning Slack threads, Notion docs, voice memos, meeting transcripts, and earlier notes into a draft outline.
 
@@ -95,7 +95,7 @@ These examples were checked against Every's public archive via the Every MCP on 
 
 **Public source:** "Mining Your Life for Context."
 
-## Pattern 7: Confidence Check Before Shipping
+## Pattern 7: Confidence check before shipping
 
 **Recent example:** In "You're the Manager Now," Every describes Austin asking Claude Code for a confidence score before creating a pull request, then sending it back for improvements until it reaches a high-confidence threshold.
 
@@ -107,7 +107,7 @@ These examples were checked against Every's public archive via the Every MCP on 
 
 **Public source:** "You're the Manager Now."
 
-## Pattern 8: Customer Support Frame Collision
+## Pattern 8: Customer support frame collision
 
 **What the agent does:** handles stable-frame support where intent is clear, policy is known, and the answer is in the knowledge base.
 
@@ -117,7 +117,7 @@ These examples were checked against Every's public archive via the Every MCP on 
 
 **Related file:** `case-studies/fin-waqqas-customer-service.md`.
 
-## Pattern 9: Editorial And Proof Workflows
+## Pattern 9: Editorial and Proof workflows
 
 **What the agent does:** drafts, restructures, checks claims, summarizes review threads, and produces alternate cuts.
 
@@ -127,7 +127,7 @@ These examples were checked against Every's public archive via the Every MCP on 
 
 **Public sources:** Introducing Proof, The Dawn of Codex-native Apps, One App to Rule All Knowledge Work, Every writing and agent-native workflows.
 
-## Pattern 10: Agent Security Watchdog
+## Pattern 10: Agent security watchdog
 
 **Recent example:** In "Mini-Vibe Check: Claude Design Isn't for Designers-Yet," Every describes a workflow where an agent monitors a dedicated X feed for vulnerabilities relevant to the AI stack.
 
@@ -139,7 +139,7 @@ These examples were checked against Every's public archive via the Every MCP on 
 
 **Public source:** "Mini-Vibe Check: Claude Design Isn't for Designers-Yet."
 
-## Pattern 11: Events And Launch Work
+## Pattern 11: Events and launch work
 
 **What the agent does:** turns positioning, notes, and prior material into run-of-show drafts, landing-page copy, social copy, invite lists, and follow-up assets.
 
@@ -147,7 +147,7 @@ These examples were checked against Every's public archive via the Every MCP on 
 
 **What readers can steal:** the agent can produce a large volume of launch material, but the expert job becomes sharper: what story should this launch tell, what should convert, and what should be cut?
 
-## Pattern 12: Team Agents With Defined Jobs
+## Pattern 12: Team agents with defined jobs
 
 **Recent example:** In "We Gave Every Employee an AI Agent. Here's What We're Doing Differently Now," Brandon Gell and Willie Williams explain why Every is moving away from one personal agent per employee toward shared agents with defined team jobs.
 

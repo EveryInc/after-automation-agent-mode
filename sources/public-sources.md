@@ -1,8 +1,8 @@
-# Public Sources
+# Public sources
 
-This file should contain public sources only. Do not add Slack, Notion, Drive, private GitHub, tokenized Proof, customer-support, finance, or internal document links.
+This file should contain public sources only. Do not add workspace links, tokenized Proof links, customer-support records, finance records, or nonpublic document links.
 
-## Every Sources
+## Every sources
 
 - [Compound Engineering guide](https://every.to/guides/compound-engineering)
 - [Agent-native Architecture guide](https://every.to/guides/agent-native)
@@ -27,7 +27,7 @@ This file should contain public sources only. Do not add Slack, Notion, Drive, p
 - [Smuggled Intelligence](https://every.to/chain-of-thought/smuggled-intelligence)
 - [How OpenAI's Codex Team Uses Their Coding Agent](https://every.to/podcast/how-openai-s-codex-team-uses-their-coding-agent)
 
-## External Sources
+## External sources
 
 - [NBER: Measuring the Productivity Impact of Generative AI](https://www.nber.org/digest/measuring-productivity-impact-generative-ai)
 - [Gartner: Customer Service Workforce Reduction and AI](https://www.gartner.com/en/newsroom/press-releases/2025-06-10-gartner-predicts-50-percent-of-organizations-will-abandon-plans-to-reduce-customer-service-workforce-due-to-ai)
@@ -35,7 +35,7 @@ This file should contain public sources only. Do not add Slack, Notion, Drive, p
 - [ABC: CBA backtracks on AI job cuts](https://www.abc.net.au/news/2025-08-21/cba-backtracks-on-ai-job-cuts-as-chatbot-lifts-call-volumes/105679492)
 - [AI 2027: Race](https://ai-2027.com/race)
 
-## Needs Final URL Verification
+## Needs final URL verification
 
 - METR task-completion time horizons.
 - Humanity's Last Exam dated leaderboard.

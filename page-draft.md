@@ -1,77 +1,94 @@
 # Agent Mode Page Draft
 
-## Human Intro
+## Header
 
-Put the manifesto into an agent and make it argue, audit, and apply the thesis to your work.
+`$ cat ./the-tide-is-rising.md`
 
-The essay makes an argument about what happens to human work as AI gets more capable. Agent Mode turns that argument into a working surface: a Codex-ready brief, starter prompts, cut research, source notes, and examples of how Every actually works with agents.
+# The Tide Is Rising
 
-The standard essay view is still the canonical reading experience. Agent Mode is for readers who want to go deeper with an agent beside them.
+The Tide Is Rising · Agent Mode
 
-## How To Use This
+## Intro
 
-1. Copy one of the prompts below.
-2. Paste it into Codex. Claude Code, Claude Cowork, ChatGPT, and Claude work too, but Codex is the most natural path if you want to use the repo.
-3. Give it the essay text, this Agent Mode text, or the companion repo.
-4. Add non-sensitive context about your role if you want the agent to apply the ideas to your work.
+Read the essay with an agent beside you.
 
-Do not paste confidential company docs, private customer information, internal links, financial data, or personnel details unless you are using a tool approved for that data.
+Agent Mode turns Dan Shipper's piece in Every into a working surface: prompts, source notes, research trails, and Every workflows you can run in Codex, Claude Code, or another capable agent.
 
-## Start With One Prompt
+The standard essay view is still the canonical reading experience. Agent Mode is for readers who want to summarize the argument, attack it, inspect the evidence, and apply it to their own work.
 
-### Understand The Argument
+## Connect your agent
+
+Copy this once. It points your agent at the companion GitHub repo, tells it which files to read, and gives it enough context to summarize, challenge, and apply the argument.
+
+```text
+You are helping me read and use Dan Shipper's piece in Every, "The Tide Is Rising."
+
+Use this companion GitHub repo as your source of truth:
+https://github.com/EveryInc/tide-is-rising-agent-mode
+
+If you can access GitHub or run shell commands, clone or open that repo first. Then read:
+- README.md
+- AGENTS.md
+- agent-mode.md
+- claims.md
+- prompts/starter-prompts.md
+- case-studies/every-ai-native-workflows.md
+- sources/public-sources.md
+
+Do not answer from the essay alone. Use the repo to summarize the argument, challenge it, inspect the evidence, and turn it into a workflow I can try.
+
+Start by giving me:
+1. the cleanest version of the core claim;
+2. the strongest counterargument;
+3. three Every workflow examples from the repo that I can steal;
+4. one concrete human-agent workflow I can run this week.
+
+If you cannot access GitHub directly, tell me what repo files you need me to paste or upload before you continue.
+```
+
+## Prompts
+
+### Understand the argument
 
 ```text
 Summarize the argument of "The Tide Is Rising" in 10 bullets. Then name the one claim I am most likely to misunderstand, explain why it is easy to misunderstand, and give me the cleanest version of the claim.
 ```
 
-### Read The Cut Research
+### Challenge the argument
 
 ```text
-Show me the best research, case studies, and examples behind "The Tide Is Rising" that did not fit in the essay. Sort them by which ones most strengthen the argument, which ones most complicate it, and which ones I should ask Dan or Every to publish next.
+Give me the strongest counterargument to "The Tide Is Rising." Do not be polite; be accurate. Separate factual objections, conceptual objections, and labor-market objections. Then tell me what evidence would most weaken the piece and what evidence would most strengthen it.
 ```
 
-### Challenge The Argument
+### Inspect the evidence
 
 ```text
-Give me the strongest counterargument to "The Tide Is Rising." Do not be polite; be accurate. Separate factual objections, conceptual objections, and labor-market objections. Then tell me what evidence would most weaken the essay and what evidence would most strengthen it.
+Use the companion repo to investigate one claim from "The Tide Is Rising." Return the best evidence, the strongest counterargument, what the evidence does not prove, what would change the conclusion, and whether the source is public, public summary, or needs source checking.
 ```
 
-### Inspect The Evidence
-
-```text
-Use the companion repo to investigate one claim from "The Tide Is Rising." Return the best evidence, the strongest counterargument, what the evidence does not prove, what would change the conclusion, and whether the source is public, public-safe summary, or still needs provenance.
-```
-
-### Apply It To My Work
+### Apply it to my work
 
 ```text
 I want to apply "The Tide Is Rising" to my own work. Ask me up to five questions about my role, team, and current AI use. Then tell me where AI is likely to create new expert work for me instead of simply removing work. Separate stable-frame tasks, frame-changing tasks, review loops, and one workflow I should try this week.
 ```
 
-### Build My Codex Workflow
+### Build a human-agent workflow
 
 ```text
-Use "The Tide Is Rising" to design one Codex workflow I can run this week. Include the human framing step, the agent execution step, the expert review step, the file or artifact I should create, how I should judge quality, and what I should compound for next time.
+Build me a practical human-agent workflow from "The Tide Is Rising" that I can try this week. Include the human judgment step, the agent execution step, the expert review step, what good looks like, and what failure would teach me.
 ```
 
-### Turn AI Anxiety Into An Action Plan
+### Turn AI anxiety into an action plan
 
 ```text
 I am worried about what AI means for my work. Use "The Tide Is Rising" to audit my role. Separate work that is likely to become stable-frame automation, work where my expert judgment becomes more valuable, risks I should take seriously, and one concrete practice plan for the next 30 days.
 ```
 
-## Ride The Models With Us
+## How Every uses this
 
-This is how we recommend reading serious work now: with an agent beside you, helping you summarize, challenge, apply, and extend it.
+Every's inside view is the reason this artifact exists. We use agents to write code, review drafts, build presentations, inspect customer support workflows, create events, and turn repeated work into reusable systems.
 
-Every is where we practice this way of working in public. Read the manifesto, run Agent Mode in Codex, join the camp, and follow the next guide for power users who want to work at the edge of AI.
-
-## How Every Uses This
-
-Every's inside-view is the reason this artifact exists. We use agents to write code, review drafts, build presentations, inspect customer support workflows, create events, and turn repeated work into reusable systems.
-
-The public Every archive now has a set of recent workflows readers can steal directly: mine scattered thinking before drafting, write evals before agent skills, run inbox review through Codex plus Proof, turn support feedback into a Linear-to-Codex product queue, ask Codex to identify automations from real connected tools, storyboard product videos from screen recordings, and give an agent a bounded security feed to monitor.
+The public Every archive has a set of recent workflows readers can steal directly: mine scattered thinking before drafting, write evals before agent skills, run inbox review through a coding agent plus Proof, turn support feedback into a product queue, ask a coding agent to identify automations from real connected tools, storyboard product videos from screen recordings, and give an agent a bounded security feed to monitor.
 
 The pattern is not "AI does the work." The pattern is:
 
@@ -82,44 +99,6 @@ The pattern is not "AI does the work." The pattern is:
 
 That is the practical version of the essay's thesis: demand for difference becomes demand for people who can frame, review, and compound agent work.
 
-## Agent Operating Brief
+## Every footer
 
-You are helping a reader engage with Dan Shipper's manifesto, "The Tide Is Rising."
-
-Your job is to help the reader understand, challenge, apply, and extend the essay. Do not treat the essay as unquestionable. Treat it as a serious argument with evidence, open questions, and possible failure modes.
-
-Use these rules:
-
-- Start from the reader's question.
-- Distinguish public sources, Every case studies, and claims that still need provenance.
-- Ask for reader context before giving personal or workplace advice.
-- Do not ask the reader to paste confidential company, customer, financial, legal, or personnel information.
-- When applying the essay to the reader's work, separate human judgment, agent execution, and expert review.
-- When challenging the essay, give the strongest counterargument, not a strawman.
-
-## Argument Map
-
-1. Frontier AI progress is real and should not be minimized.
-2. Models are powerful when work is inside a frame.
-3. Humans create, choose, revise, and own frames.
-4. Cheap competence increases the number of attempts people make.
-5. More attempts create more sameness.
-6. Sameness creates demand for difference.
-7. Demand for difference is new demand for experts.
-8. The practical race is not human versus AI. It is human-plus-AI versus human-plus-AI.
-
-## Companion Repo
-
-Use the repo when you want evidence, examples, or prompts:
-
-- Start here: `README.md`
-- Give this to your agent: `agent-mode.md`
-- Copy prompts: `prompts/starter-prompts.md`
-- Investigate the thesis: `claims.md`
-- Read Dan's best research: `research-index.md`
-- Understand the Senior Engineer benchmark: `benchmarks/senior-engineer-benchmark.md`
-- See the strongest Every case study: `case-studies/fin-waqqas-customer-service.md`
-- Check public sources: `sources/public-sources.md`
-- Run this in Codex: `workflows/codex-power-user-workflow.md`
-- Steal Every workflows: `case-studies/every-ai-native-workflows.md`
-- Read source summaries: `sources/source-summaries.md`
+Every is the only subscription you need to stay at the edge of AI. Come ride the models and live in the future with our apps, ideas, trainings, and community. Start your free trial at every.to/subscribe.

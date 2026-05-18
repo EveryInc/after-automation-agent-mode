@@ -1,10 +1,10 @@
-# Codex Power-User Workflow
+# Agent workflow
 
 Use this when you want Agent Mode to become a working session, not a reading exercise.
 
 ## Setup
 
-Open this repo in Codex. Ask Codex to read:
+Open this repo in Codex, Claude Code, or another coding agent. Ask the agent to read:
 
 - `AGENTS.md`
 - `agent-mode.md`
@@ -26,9 +26,9 @@ You are helping me use Dan Shipper's "The Tide Is Rising" as a working document.
 Before applying it to my work, ask me up to five questions about my role, team, current AI use, and what I personally review for quality.
 ```
 
-## The Artifact To Create
+## The artifact to create
 
-Ask Codex to create a short local file called `my-tide-workflow.md` with:
+Ask your agent to create a short local file called `my-tide-workflow.md` with:
 
 - your role and work context;
 - stable-frame tasks an agent can attempt;
@@ -37,7 +37,7 @@ Ask Codex to create a short local file called `my-tide-workflow.md` with:
 - one workflow to run this week;
 - what to save as reusable context, prompt, checklist, or code.
 
-## Review Criteria
+## Review criteria
 
 The workflow is good if:
 
@@ -47,12 +47,12 @@ The workflow is good if:
 - it identifies what should compound for next time;
 - it does not require sensitive company, customer, legal, financial, or personnel data in an unapproved tool.
 
-## Second Prompt
+## Second prompt
 
 ```text
 Now critique the workflow you proposed. Where is it too generic? Where does it assume my work is more stable-frame than it is? What expert judgment did you underweight? Revise the workflow so it would survive contact with a real workday.
 ```
 
-## Why This Matters
+## Why this matters
 
-The manifesto argues that the practical race is human-plus-AI versus human-plus-AI. This workflow makes that claim falsifiable in your own work. If the agent can do useful execution inside your frame, you learn what to delegate. If it fails, you learn where your expertise actually lives.
+The essay argues that the practical race is human-plus-AI versus human-plus-AI. This workflow makes that claim falsifiable in your own work. If the agent can do useful execution inside your frame, you learn what to delegate. If it fails, you learn where your expertise actually lives.

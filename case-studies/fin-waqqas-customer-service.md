@@ -1,14 +1,14 @@
 # Case Study: Fin, Waqqas, And Frame Collision In Customer Support
 
-This case study should remain a public-safe summary unless the support owner and editorial owner approve specific metrics.
+This case study is a public pattern, not a metrics report.
 
-## Short Version
+## Short version
 
 Fin handles support work when the frame is stable. Humans handle support work when the frame breaks.
 
-That distinction is the manifesto in miniature. AI can absorb a large amount of routine competence, but the remaining work often becomes more expert: trust, escalation, policy, billing identity, product feedback, reporting methodology, and system design.
+That distinction is the essay in miniature. AI can absorb a large amount of routine competence, but the remaining work often becomes more expert: trust, escalation, policy, billing identity, product feedback, reporting methodology, and system design.
 
-## Stable-Frame Support
+## Stable-frame support
 
 Stable-frame support is work where:
 
@@ -20,7 +20,7 @@ Stable-frame support is work where:
 
 AI is strong here. This is where automation can genuinely reduce repetitive work.
 
-## Frame-Collision Support
+## Frame-collision support
 
 Frame collision happens when:
 
@@ -33,13 +33,13 @@ Frame collision happens when:
 
 This is where human expertise becomes more valuable, not less.
 
-## Why This Matters
+## Why this matters
 
 The naive version of AI support says: AI answers tickets, so humans disappear.
 
 The more accurate version says: AI handles more stable-frame work, which reveals and concentrates the harder human work around judgment, trust, systems, and responsibility.
 
-## What Readers Can Steal
+## What readers can steal
 
 Ask this about any AI workflow:
 
@@ -48,14 +48,3 @@ Ask this about any AI workflow:
 3. Who owns the broken-frame cases?
 4. How do those cases feed back into product, policy, docs, or tooling?
 5. What expert review loop keeps quality from degrading?
-
-## Do Not Publish Without Approval
-
-- Customer names.
-- Ticket IDs.
-- Raw support conversations.
-- Raw Slack links.
-- Private screenshots.
-- Exact metrics that have not been approved.
-- Small-n details that identify a customer or employee situation.
-

@@ -1,19 +1,18 @@
-# Research Index
+# Research index
 
 This is a curated launch index, not the full source archive.
 
-## How To Read Source Status
+## How to read source status
 
 - `public`: safe public source URL.
-- `public-safe-summary`: internal source summarized without raw private links or identifying details.
-- `needs-provenance`: do not state as fact until checked.
-- `cut-but-recoverable`: useful for later expansion, not launch-critical.
+- `public-summary`: useful pattern summarized without nonpublic links or identifying details.
+- `source-check-needed`: useful lead, but do not state as fact until checked.
 
-## Best Launch Sources
+## Best launch sources
 
 ### 1. Senior Engineer benchmark
 
-- **Status:** needs-provenance for exact scores and model comparisons.
+- **Status:** source-check-needed for exact scores and model comparisons.
 - **Summary:** Dan's benchmark tests whether an agent can diagnose and plan a first-principles rewrite of a broken production codebase. The interesting point is not only the score. It is that changing the prompt/frame can dramatically change what the model does.
 - **Supports:** benchmarks measure capability inside human-built frames.
 - **Use with:** `benchmarks/senior-engineer-benchmark.md`.
@@ -38,20 +37,20 @@ This is a curated launch index, not the full source archive.
 
 ### 5. Fin and Waqqas customer-service case
 
-- **Status:** public-safe-summary, approval required.
+- **Status:** public-summary.
 - **Summary:** Fin can handle a large amount of stable-frame support. Human support work remains crucial where the frame breaks: trust, policy, billing identity, escalation, reporting methodology, product feedback, and system design.
 - **Supports:** demand for difference is new demand for experts.
 - **Use with:** `case-studies/fin-waqqas-customer-service.md`.
 
 ### 6. Hidden work after AI replacement
 
-- **Status:** public-safe-summary.
+- **Status:** public-summary.
 - **Summary:** Replacement claims often hide work that reappears as QA, escalation, prompt maintenance, knowledge-base maintenance, manager review, customer repair, or engineering cleanup.
 - **Supports:** AI often moves work rather than simply eliminating it.
 
 ### 7. AI-pilled practitioner field notes
 
-- **Status:** public-safe-summary and public source links after quote review.
+- **Status:** public-summary and public source links after quote review.
 - **Summary:** First-person material across customer support, admin, sales, design, translation, technical writing, paralegal work, and voice/broadcast shows a mixed labor story: replacement, augmentation, degradation, and new supervision work.
 - **Supports:** real worker outcomes are mixed.
 
@@ -73,9 +72,9 @@ This is a curated launch index, not the full source archive.
 - **Summary:** A bank reversed AI-linked support cuts after call volumes and implementation realities complicated the plan.
 - **Supports:** replacement has brakes: customers, quality, unions, volume, and workflow realities.
 
-### 11. Every internal AI-native workflows
+### 11. Every AI-native workflows
 
-- **Status:** public-safe-summary.
+- **Status:** public-summary.
 - **Summary:** Every uses agents across coding, writing, operations, customer support, design, product management, inbox work, source mining, security monitoring, and growth workflows. The useful pattern is not "AI does all the work"; it is human framing, agent execution, expert review, and compounding into reusable artifacts.
 - **Supports:** Every as an inside-view anomaly.
 - **Use with:** `case-studies/every-ai-native-workflows.md`.
@@ -86,17 +85,17 @@ This is a curated launch index, not the full source archive.
 - **Summary:** Every's engineering method turns agent work into a loop: plan, work, review, compound. It is a practical example of human-agent work moving up a level.
 - **Supports:** new expert work emerges around framing, review, and compounding systems.
 
-### 13. Codex as knowledge-work operating system
+### 13. Coding agents as knowledge-work operating systems
 
 - **Status:** public.
-- **Summary:** Recent Every coverage shows Codex moving beyond code into email triage, go-to-market planning, KPI tracking, recruiting, business-document review, and tool-building. The pattern is a project folder plus connectors plus review in the destination app.
+- **Summary:** Recent Every coverage shows coding agents moving beyond code into email triage, go-to-market planning, KPI tracking, recruiting, business-document review, and tool-building. The pattern is a project folder plus connectors plus review in the destination app.
 - **Supports:** coding agents are becoming general-purpose knowledge-work agents.
-- **Use with:** `workflows/codex-power-user-workflow.md`, `case-studies/every-ai-native-workflows.md`.
+- **Use with:** `workflows/agent-workflow.md`, `case-studies/every-ai-native-workflows.md`.
 
-### 14. Dan's Codex inbox workflow
+### 14. Dan's inbox-zero agent workflow
 
 - **Status:** public.
-- **Summary:** Dan's inbox-zero workflow uses a one-page operating manual, Codex, Cora, and a Proof document. The agent sweeps the inbox and drafts decisions, while the human reviews in a visible shared document before anything sends.
+- **Summary:** Dan's inbox-zero workflow uses a one-page operating manual, a coding agent, Cora, and a Proof document. The agent sweeps the inbox and drafts decisions, while the human reviews in a visible shared document before anything sends.
 - **Supports:** delegation and close collaboration are different modes, and serious workflows need visible review loops.
 - **Use with:** `case-studies/every-ai-native-workflows.md`.
 
@@ -119,7 +118,7 @@ This is a curated launch index, not the full source archive.
 - **Status:** public.
 - **Summary:** Every's recent writing on folder-based agents shows a practical pattern: agents become useful when a project folder contains instructions, architecture/context docs, prompts, and source files in a stable reading order.
 - **Supports:** agent work compounds when context is stored as files, not trapped in one-off chats.
-- **Use with:** `case-studies/every-ai-native-workflows.md`, `workflows/codex-power-user-workflow.md`.
+- **Use with:** `case-studies/every-ai-native-workflows.md`, `workflows/agent-workflow.md`.
 
 ### 18. Confidence check before shipping
 
@@ -131,8 +130,8 @@ This is a curated launch index, not the full source archive.
 ### 19. Recent Steal This Workflow examples
 
 - **Status:** public.
-- **Summary:** Recent Context Window workflow examples include mining scattered thinking before drafting, writing evals before agent skills, using Codex plus Proof for inbox review, turning support feedback into a Linear-to-Codex product queue, asking Codex to identify automations from real connected tools, storyboarding product videos from screen recordings, and assigning an agent a bounded security-monitoring feed.
-- **Supports:** the manifesto's practical loop: human frame, agent execution, expert review, and compounding into reusable artifacts.
+- **Summary:** Recent Context Window workflow examples include mining scattered thinking before drafting, writing evals before agent skills, using a coding agent plus Proof for inbox review, turning support feedback into a product queue, asking a coding agent to identify automations from real connected tools, storyboarding product videos from screen recordings, and assigning an agent a bounded security-monitoring feed.
+- **Supports:** the essay's practical loop: human frame, agent execution, expert review, and compounding into reusable artifacts.
 - **Use with:** `case-studies/every-ai-native-workflows.md`.
 
 ### 20. Team agents with defined jobs
