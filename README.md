@@ -20,6 +20,16 @@ Read the essay, open this repo in Codex or another coding agent, and make the ar
 | Read source summaries | [`sources/source-summaries.md`](sources/source-summaries.md) |
 | Check public sources | [`sources/public-sources.md`](sources/public-sources.md) |
 
+## Recent Workflows To Steal
+
+The fastest way to understand the repo is to copy one public Every workflow and run it on your own work:
+
+- Mine your Slack, docs, notes, and transcripts before drafting: [`case-studies/every-ai-native-workflows.md`](case-studies/every-ai-native-workflows.md#recent-public-workflows-to-steal)
+- Use Codex plus Proof to review inbox drafts before anything sends.
+- Turn support feedback into a product queue that routes small fixes to a coding agent.
+- Ask Codex to inspect your real connected tools and suggest automations worth testing.
+- Give an agent a bounded monitoring job with a source set, cadence, Slack report, and human owner.
+
 ## How To Use This With An Agent
 
 1. Open the essay and this repo in Codex.

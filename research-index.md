@@ -127,3 +127,17 @@ This is a curated launch index, not the full source archive.
 - **Summary:** Austin's confidence-check workflow asks an agent to rate its confidence before shipping and to find improvements if confidence is below the threshold. The point is not that the number is objectively true; it is that the agent must surface uncertainty and improve before handoff.
 - **Supports:** human-plus-agent workflows need explicit review gates.
 - **Use with:** `case-studies/every-ai-native-workflows.md`.
+
+### 19. Recent Steal This Workflow examples
+
+- **Status:** public.
+- **Summary:** Recent Context Window workflow examples include mining scattered thinking before drafting, writing evals before agent skills, using Codex plus Proof for inbox review, turning support feedback into a Linear-to-Codex product queue, asking Codex to identify automations from real connected tools, storyboarding product videos from screen recordings, and assigning an agent a bounded security-monitoring feed.
+- **Supports:** the manifesto's practical loop: human frame, agent execution, expert review, and compounding into reusable artifacts.
+- **Use with:** `case-studies/every-ai-native-workflows.md`.
+
+### 20. Team agents with defined jobs
+
+- **Status:** public.
+- **Summary:** Every's retrospective on giving every employee an AI agent argues that one personal agent per employee was the wrong starting point. The next Plus One direction is shared team resources with defined jobs.
+- **Supports:** agents work better when their responsibility, context, and review boundary are explicit.
+- **Use with:** `case-studies/every-ai-native-workflows.md`.

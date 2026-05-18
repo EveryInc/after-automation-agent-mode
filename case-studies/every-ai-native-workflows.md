@@ -13,6 +13,20 @@ Across coding, writing, support, events, product, and design, the useful pattern
 
 That is the practical meaning of "demand for difference is new demand for experts."
 
+## Recent Public Workflows To Steal
+
+These examples were checked against Every's public archive via the Every MCP on 2026-05-18. They are useful GitHub-facing proof because they are recent, public, and practical.
+
+| Date | Public example | Workflow to steal | Why it matters for the manifesto |
+|---|---|---|---|
+| 2026-05-13 | ["Mining Your Life for Context"](https://every.to/context-window/mining-your-life-for-context) | Connect the places where your thinking already lives, ask an agent to find everything you have said about a topic, group the strongest threads, cite sources, and turn them into an outline. | The agent does not replace judgment; it retrieves and structures the human's existing judgment. |
+| 2026-05-12 | ["The Fallacy of the 16-hour Agent"](https://every.to/context-window/the-fallacy-of-the-16-hour-agent) | Improve an agent skill by writing 10 eval cases first, including cases that should not trigger the skill, then turn failures into standing lessons. | Long-running agents need tests, guardrails, and review signals, not just more runtime. |
+| 2026-05-05 | ["The Dawn of Codex-native Apps"](https://every.to/context-window/the-dawn-of-codex-native-apps) | Write a one-page inbox operating manual, let Codex work through the inbox in Cora, and keep every draft and decision visible in a Proof document before sending. | Delegation works when the human review loop stays visible and accountable. |
+| 2026-04-29 | ["Compute Is the New Cash"](https://every.to/context-window/compute-is-the-new-cash) | Turn support feedback into Linear issues, use triage intelligence to deduplicate related requests, then route small issues to a coding agent and larger ones to a closer human-agent loop. | Agents increase product throughput, but prioritization and product judgment stay human. |
+| 2026-04-28 | ["One App to Rule All Knowledge Work"](https://every.to/context-window/one-app-to-rule-all-knowledge-work) | Give Codex access to the tools you actually use, ask it to identify five automations that would remove friction, run the easiest one for a week, and audit the misses. | The best use cases often come from inspecting real work, not imagining abstract prompts. |
+| 2026-04-24 | ["Model Wars"](https://every.to/context-window/model-wars) | Screen-record a product flow, ask a model to storyboard from the real UI, iterate on the storyboard, then have a coding agent build the video in Remotion. | The human supplies taste and ground truth; the agent turns that frame into a polished artifact. |
+| 2026-04-21 | ["Mini-Vibe Check: Claude Design Isn't for Designers-Yet"](https://every.to/context-window/mini-vibe-check-claude-design) | Give an agent a dedicated X feed of trusted AI security sources, run scheduled scans, and route relevant vulnerability alerts to Slack with severity tags. | Bounded monitoring is useful when the source set, cadence, output, and human owner are explicit. |
+
 ## Pattern 1: Compound Engineering
 
 **What the agent does:** drafts plans, writes code, runs tests, reviews diffs, searches prior learnings, and captures reusable solutions.
@@ -111,7 +125,7 @@ That is the practical meaning of "demand for difference is new demand for expert
 
 **What readers can steal:** make the document agent-readable. Clean markdown, source notes, comments, and structured prompts make a piece easier to review with an agent.
 
-**Public sources:** Introducing Proof, Every writing and agent-native workflows.
+**Public sources:** Introducing Proof, The Dawn of Codex-native Apps, One App to Rule All Knowledge Work, Every writing and agent-native workflows.
 
 ## Pattern 10: Agent Security Watchdog
 
@@ -132,6 +146,18 @@ That is the practical meaning of "demand for difference is new demand for expert
 **What the human does:** chooses the audience, message, offer, launch sequence, and quality bar.
 
 **What readers can steal:** the agent can produce a large volume of launch material, but the expert job becomes sharper: what story should this launch tell, what should convert, and what should be cut?
+
+## Pattern 12: Team Agents With Defined Jobs
+
+**Recent example:** In "We Gave Every Employee an AI Agent. Here's What We're Doing Differently Now," Brandon Gell and Willie Williams explain why Every is moving away from one personal agent per employee toward shared agents with defined team jobs.
+
+**What the agent does:** owns a narrower recurring job, operates with clearer boundaries, and becomes a shared resource rather than a personality-driven sidekick.
+
+**What the human does:** designs the job, chooses the workflow boundary, maintains the source of truth, and decides when a team-level agent is more appropriate than a personal assistant.
+
+**What readers can steal:** before rolling out agents broadly, define the job. A team agent with a specific responsibility is easier to evaluate, maintain, and trust than a general-purpose personal agent for everyone.
+
+**Public source:** "We Gave Every Employee an AI Agent. Here's What We're Doing Differently Now."
 
 ## Prompt
 

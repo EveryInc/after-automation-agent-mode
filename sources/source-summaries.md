@@ -128,7 +128,21 @@ This file summarizes the source pack behind Agent Mode. It is intentionally conc
 - **Complicates:** both blind trust and endless polish. The confidence check forces uncertainty into the open without pretending to guarantee correctness.
 - **Agent use:** ask the agent to score confidence, justify the score, name unresolved risks, and revise if below threshold.
 
-## 18. Same Voice, RLHF, And Model Compliance
+## 18. Recent Steal This Workflow Examples
+
+- **Status:** public.
+- **Useful for:** giving readers concrete, recent workflows they can copy: mine scattered thinking before drafting, write evals before agent skills, run inbox review through Codex plus Proof, convert support feedback into a product queue, ask Codex what to automate from real tool usage, storyboard product videos from screen recordings, and create bounded security-monitoring agents.
+- **Complicates:** vague claims that Every "uses agents" without showing the operating details.
+- **Agent use:** recommend one small workflow the reader can try this week, then name the human frame, agent execution step, review surface, and reusable artifact.
+
+## 19. Team Agents With Defined Jobs
+
+- **Status:** public.
+- **Useful for:** showing that Every's agent practice is not naive boosterism. The first personal-agent rollout created upkeep and reliability problems, which pushed the product direction toward shared agents with defined team jobs.
+- **Complicates:** the idea that every employee should automatically get a general-purpose personal agent.
+- **Agent use:** before recommending an agent rollout, ask what recurring job the agent owns, what source of truth it reads, what actions it can take, and how the team evaluates success.
+
+## 20. Same Voice, RLHF, And Model Compliance
 
 - **Status:** needs-provenance for exact papers and links.
 - **Useful for:** explaining why model output often converges toward generic, agreeable, average-seeming answers.

@@ -71,6 +71,8 @@ Every is where we practice this way of working in public. Read the manifesto, ru
 
 Every's inside-view is the reason this artifact exists. We use agents to write code, review drafts, build presentations, inspect customer support workflows, create events, and turn repeated work into reusable systems.
 
+The public Every archive now has a set of recent workflows readers can steal directly: mine scattered thinking before drafting, write evals before agent skills, run inbox review through Codex plus Proof, turn support feedback into a Linear-to-Codex product queue, ask Codex to identify automations from real connected tools, storyboard product videos from screen recordings, and give an agent a bounded security feed to monitor.
+
 The pattern is not "AI does the work." The pattern is:
 
 1. A human chooses the frame.
