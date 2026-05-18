@@ -1,6 +1,6 @@
 # The Tide Is Rising: Agent Mode
 
-This repo is the agent-ready evidence room for Dan Shipper's manifesto, **The Tide Is Rising**.
+This repo is the agent-ready evidence room for Dan Shipper's piece in Every: **The Tide Is Rising**.
 
 Read the essay, open this repo in Codex or another coding agent, and make the argument do work: summarize it, attack it, inspect the evidence, and turn it into a workflow you can try this week.
 
