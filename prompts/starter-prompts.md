@@ -6,96 +6,69 @@ Use these prompts with the essay alone, or with this repo attached.
 
 **Best for:** a first pass after reading.
 
-**Copyable prompt:**
-
 ```text
-Summarize the argument of "The Tide Is Rising" in 10 bullets. Then name the one claim I am most likely to misunderstand, explain why it is easy to misunderstand, and give me the cleanest version of the claim.
+Use "The Tide Is Rising" and the companion repo to explain the argument in 10 bullets.
+
+Then give me:
+1. the cleanest one-sentence version of the thesis;
+2. the claim readers are most likely to misunderstand;
+3. why that misunderstanding is tempting;
+4. the strongest version of the claim without hype.
+
+Use the essay and repo context. Do not turn this into a generic AI summary.
 ```
-
-**Expected output:** thesis, argument flow, likely misunderstanding.
-
-## Challenge the argument
-
-**Best for:** testing whether the essay is overclaiming.
-
-**Copyable prompt:**
-
-```text
-Give me the strongest counterargument to "The Tide Is Rising." Do not be polite; be accurate. Separate factual objections, conceptual objections, and labor-market objections. Then tell me what evidence would most weaken the piece and what evidence would most strengthen it.
-```
-
-**Expected output:** serious objections, not a soft summary.
-
-## Read the cut research
-
-**Best for:** seeing what did not fit in the essay.
-
-**Copyable prompt:**
-
-```text
-Show me the best research, case studies, and examples behind "The Tide Is Rising" that did not fit in the essay. Sort them by which ones most strengthen the argument, which ones most complicate it, and which ones I should ask Dan or Every to publish next.
-```
-
-**Optional repo context:** `research-index.md`, `sources/source-summaries.md`, `sources/public-sources.md`.
-
-## Apply it to my work
-
-**Best for:** turning the essay into practice.
-
-**Copyable prompt:**
-
-```text
-I want to apply "The Tide Is Rising" to my own work. Ask me up to five questions about my role, team, and current AI use. Then tell me where AI is likely to create new expert work for me instead of simply removing work. Separate stable-frame tasks, frame-changing tasks, review loops, and one workflow I should try this week.
-```
-
-**Add this context:** your role, the work you already delegate to AI, and what you still review personally.
-
-**Privacy note:** use non-sensitive summaries. Do not paste confidential company or customer information into an unapproved tool.
-
-## Turn AI anxiety into an action plan
-
-**Best for:** readers who feel the essay personally.
-
-**Copyable prompt:**
-
-```text
-I am worried about what AI means for my work. Use "The Tide Is Rising" to audit my role. Separate work that is likely to become stable-frame automation, work where my expert judgment becomes more valuable, risks I should take seriously, and one concrete practice plan for the next 30 days.
-```
-
-**Expected output:** a sober risk map and practice plan, not reassurance.
 
 ## Inspect the evidence
 
-**Best for:** readers who want sources.
-
-**Copyable prompt:**
+**Best for:** readers who want sources, not vibes.
 
 ```text
-Use the repo sources to investigate one claim from "The Tide Is Rising." For the claim I choose, return: best evidence, strongest counterargument, what the evidence does not prove, what would change the conclusion, and whether the source status is public, public summary, or needs source checking.
+Use the companion repo to investigate one important claim from "The Tide Is Rising."
+
+For that claim, return:
+1. the best evidence in the repo;
+2. the strongest unresolved question or counterexample;
+3. what the evidence does not prove;
+4. what new evidence would change the conclusion;
+5. whether the source is public, public summary, or needs source checking.
+
+Be precise. Do not defend the essay by default.
 ```
 
-**Optional repo context:** `claims.md`, `research-index.md`, `sources/public-sources.md`.
+## Apply it to my work
 
-## Try a workflow this week
-
-**Best for:** making the essay operational.
-
-**Copyable prompt:**
+**Best for:** turning the essay into a personal operating question.
 
 ```text
-Build me a practical human-agent workflow from "The Tide Is Rising" that I can try this week. Include the human judgment step, the agent execution step, the expert review step, what "good" looks like, and what failure would teach me.
-```
+I want to apply "The Tide Is Rising" to my own work.
 
-**Expected output:** a concrete workflow with roles, steps, and review criteria.
+If you have access to my workspace, first inspect available non-sensitive context before interviewing me: recent project files, README or AGENTS instructions, docs, notes, commits, issue lists, calendars, or other connected tools that show how I actually work. Do not open or quote confidential customer, legal, financial, or personnel details unless I explicitly approve that source.
+
+Then ask up to five questions only for context you still need.
+
+Return:
+1. work I do that is stable-frame enough for an agent;
+2. work where my judgment, taste, or framing is the point;
+3. places where generic AI output creates sameness or risk;
+4. review loops I should add;
+5. one workflow I should try this week.
+```
 
 ## Build a human-agent workflow
 
-**Best for:** power users who want to work with the repo in Codex, Claude Code, or another coding agent instead of pasting one prompt into chat.
-
-**Copyable prompt:**
+**Best for:** making the essay operational.
 
 ```text
-Use "The Tide Is Rising" and this repo to design one human-agent workflow I can run this week. Include the human framing step, the agent execution step, the expert review step, the file or artifact I should create, how I should judge quality, and what I should compound for next time.
-```
+Build me a practical human-agent workflow from "The Tide Is Rising" that I can run this week.
 
-**Optional repo context:** `AGENTS.md`, `agent-mode.md`, `workflows/agent-workflow.md`, `case-studies/every-ai-native-workflows.md`.
+If you can inspect my workspace, look for a recurring task, messy project folder, repeated decision, draft-heavy workflow, or review bottleneck before proposing the workflow. If you cannot inspect context, ask me up to five questions first.
+
+Include:
+1. the human framing step;
+2. the agent execution step;
+3. the artifact we should create;
+4. the expert review step;
+5. what good looks like;
+6. what failure would teach me;
+7. what prompt, checklist, doc, or repo file should be saved so the workflow compounds next time.
+```

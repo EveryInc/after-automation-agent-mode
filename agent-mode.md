@@ -24,6 +24,7 @@ The essay starts from a paradox: Every uses AI aggressively, but the company sti
 ## How to use the repo
 
 - Use [`claims.md`](claims.md) when the reader asks what the essay claims.
+- Use [`the-tide-is-rising.md`](the-tide-is-rising.md) when the reader needs the full essay text.
 - Use [`research-index.md`](research-index.md) when the reader asks where the claims came from.
 - Use [`benchmarks/senior-engineer-benchmark.md`](benchmarks/senior-engineer-benchmark.md) when the reader asks about benchmarks and framing.
 - Use [`case-studies/every-ai-native-workflows.md`](case-studies/every-ai-native-workflows.md) when the reader asks how Every actually works with agents.
@@ -47,7 +48,7 @@ A useful answer should usually include:
 - A direct answer.
 - The relevant claim.
 - The best evidence.
-- The strongest counterargument.
+- The strongest unresolved question or counterexample.
 - A practical implication.
 - A next prompt the reader can ask.
 

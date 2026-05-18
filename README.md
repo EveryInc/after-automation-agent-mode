@@ -2,12 +2,13 @@
 
 This repo is the companion evidence room for Dan Shipper's piece in Every: **The Tide Is Rising**.
 
-Read the essay, open this repo in Codex, Claude Code, or another coding agent, and make the argument do work: summarize it, attack it, inspect the evidence, and turn it into a workflow you can try this week.
+Read the essay, open this repo in Codex, Claude Code, or another coding agent, and make the argument do work: summarize it, inspect the evidence, and turn it into a workflow you can try this week.
 
 ## Start here
 
 | I want to... | Use this |
 |---|---|
+| Read the full essay text | [`the-tide-is-rising.md`](the-tide-is-rising.md) |
 | Read the agent-facing companion | [`agent-mode.md`](agent-mode.md) |
 | Give my agent operating instructions | [`AGENTS.md`](AGENTS.md) |
 | Copy starter prompts | [`prompts/starter-prompts.md`](prompts/starter-prompts.md) |
@@ -33,7 +34,7 @@ The fastest way to understand the repo is to copy one public Every workflow and 
 ## How to use this with an agent
 
 1. Open the essay and this repo in Codex, Claude Code, or the coding agent of your choosing.
-2. Ask the agent to read [`AGENTS.md`](AGENTS.md), [`agent-mode.md`](agent-mode.md), and [`claims.md`](claims.md).
+2. Ask the agent to read [`the-tide-is-rising.md`](the-tide-is-rising.md), [`AGENTS.md`](AGENTS.md), [`agent-mode.md`](agent-mode.md), and [`claims.md`](claims.md).
 3. Copy one prompt from [`prompts/starter-prompts.md`](prompts/starter-prompts.md), or start with [`workflows/agent-workflow.md`](workflows/agent-workflow.md).
 4. Give your agent context about your role, team, and current AI use. Do not paste confidential company, customer, financial, legal, or personnel information unless you are using a tool approved for that data.
 
@@ -43,7 +44,7 @@ This repo answers six practical questions:
 
 - **What should I believe?** See [`claims.md`](claims.md).
 - **What should I do?** See [`prompts/starter-prompts.md`](prompts/starter-prompts.md).
-- **What can I copy?** See [`AGENTS.md`](AGENTS.md), [`prompts/starter-prompts.md`](prompts/starter-prompts.md), and [`case-studies/every-ai-native-workflows.md`](case-studies/every-ai-native-workflows.md).
+- **What can I copy?** See [`AGENTS.md`](AGENTS.md), [`prompts/starter-prompts.md`](prompts/starter-prompts.md), [`workflows/agent-workflow.md`](workflows/agent-workflow.md), and [`case-studies/every-ai-native-workflows.md`](case-studies/every-ai-native-workflows.md).
 - **How do I run this with an agent?** See [`workflows/agent-workflow.md`](workflows/agent-workflow.md).
 - **How does Every actually work this way?** See [`case-studies/every-ai-native-workflows.md`](case-studies/every-ai-native-workflows.md).
 - **Where did this claim come from?** See [`research-index.md`](research-index.md) and [`sources/public-sources.md`](sources/public-sources.md).

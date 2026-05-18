@@ -7,12 +7,13 @@ Use this when you want Agent Mode to become a working session, not a reading exe
 Open this repo in Codex, Claude Code, or another coding agent. Ask the agent to read:
 
 - `AGENTS.md`
+- `the-tide-is-rising.md`
 - `agent-mode.md`
 - `claims.md`
 - `prompts/starter-prompts.md`
 - `case-studies/every-ai-native-workflows.md`
 
-Then paste the essay text or link the essay if your environment can access it.
+Then add any non-sensitive context about your work that the agent cannot already inspect.
 
 ## First Prompt
 
@@ -20,10 +21,10 @@ Then paste the essay text or link the essay if your environment can access it.
 You are helping me use Dan Shipper's "The Tide Is Rising" as a working document. Read the repo instructions, then help me do three things:
 
 1. Summarize the argument in a way that preserves the strongest version of the thesis.
-2. Challenge the thesis with the strongest counterargument.
+2. Inspect the evidence behind the claim most relevant to my work.
 3. Design one human-agent workflow I can try this week.
 
-Before applying it to my work, ask me up to five questions about my role, team, current AI use, and what I personally review for quality.
+If you have access to my workspace, inspect non-sensitive project files, docs, notes, commits, issue lists, calendars, or connected tools before interviewing me. Then ask up to five questions only for context you still need.
 ```
 
 ## The artifact to create
