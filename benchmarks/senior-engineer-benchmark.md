@@ -1,6 +1,6 @@
 # Senior Engineer benchmark
 
-This page explains the benchmark example in **The Tide Is Rising**.
+This page explains the benchmark example in **After Automation**.
 
 ## Short version
 

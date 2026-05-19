@@ -1,4 +1,4 @@
-# The Tide Is Rising
+# After Automation
 
 ## 1. The Paradox
 
@@ -274,9 +274,9 @@ The difference between you and the model is that the model is, in an important s
 
 The model changes slowly, and only through an enormous institutional act. A new model is not born because it had an experience and learned from it. It is born because thousands of people gathered data, cleaned it, labeled it, trained against it, tuned it, tested it, argued about it, and shipped it. Even the fastest model cycle runs at the frame rate of companies: weeks, months, committees, dashboards, evals, release meetings.
 
-You, by contrast, can change in an afternoon. You can try a model, notice where it fails, update your taste, invent a workflow, abandon it, and invent another one. You can decide that what impressed you yesterday is table stakes today. You can move your own frontier faster than the model can move its weights.
+You, by contrast, can change in an afternoon. You can try a model, notice where it fails, update your judgment, invent a workflow, abandon it, and invent another one. You can decide that what impressed you yesterday is table stakes today. You can move your own frontier faster than the model can move its weights.
 
-And even when the model does move, it is still moving in response to human judgment. RLHF, evals, benchmarks, thumbs up and thumbs down, usage, taste, frustration, delight: all of it is human residue. To use these systems is already to help define the shape of their future.
+And even when the model does move, it is still moving in response to human judgment. RLHF, evals, benchmarks, thumbs up and thumbs down, usage, standards, frustration, delight: all of it is human residue. To use these systems is already to help define the shape of their future.
 
 ### The model is always fighting yesterday's war
 
@@ -295,4 +295,3 @@ Models are attempting to catch up to the living edge after it has already left a
 Rabbi Hanokh told this story:
 
 There was once a man who was very stupid. When he got up in the morning it was so hard for him to find his clothes that at night he almost hesitated to go to bed for thinking of the trouble he would have on waking. One evening he finally made a great effort, took paper and pencil and as he undressed noted down exactly where he put everything he had on. The next morning, very well pleased with himself, he took the slip of paper in his hand and read: 'cap' — there it was, he set it on his head; 'pants' — there they lay, he got into them; and so it went until he was fully dressed. 'That's all very well, but now where am I myself?' he asked in great consternation. 'Where in the world am I?' He looked and looked, but it was a vain search; he could not find himself. 'And that is how it is with us,' said the rabbi.
-

@@ -6,7 +6,7 @@ This file summarizes the source pack behind Agent Mode. It is intentionally conc
 
 - `public`: safe to link publicly after URL verification.
 - `public-summary`: safe as a summary, but do not link nonpublic material.
-- `source-check-needed`: useful idea, but exact source, quote, date, or method still needs checking.
+- `needs-verification`: useful idea, but exact source, quote, date, or method still needs checking.
 
 ## 1. Dan's draft history and live argument
 
@@ -31,7 +31,7 @@ This file summarizes the source pack behind Agent Mode. It is intentionally conc
 
 ## 4. Senior Engineer Benchmark
 
-- **Status:** source-check-needed for exact scores, model names, run dates, prompts, and scoring.
+- **Status:** needs-verification for exact scores, model names, run dates, prompts, and scoring.
 - **Useful for:** explaining how benchmarks can smuggle in human framing.
 - **Complicates:** naive leaderboard readings.
 - **Agent use:** focus on the prompt/frame lesson unless exact benchmark packet details are available.

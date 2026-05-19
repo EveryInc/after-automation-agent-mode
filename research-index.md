@@ -6,13 +6,13 @@ This is a curated launch index, not the full source archive.
 
 - `public`: safe public source URL.
 - `public-summary`: useful pattern summarized without nonpublic links or identifying details.
-- `source-check-needed`: useful lead, but do not state as fact until checked.
+- `needs-verification`: useful lead, but do not state as fact until checked.
 
 ## Best launch sources
 
 ### 1. Senior Engineer benchmark
 
-- **Status:** source-check-needed for exact scores and model comparisons.
+- **Status:** needs-verification for exact scores and model comparisons.
 - **Summary:** Dan's benchmark tests whether an agent can diagnose and plan a first-principles rewrite of a broken production codebase. The interesting point is not only the score. It is that changing the prompt/frame can dramatically change what the model does.
 - **Supports:** benchmarks measure capability inside human-built frames.
 - **Use with:** `benchmarks/senior-engineer-benchmark.md`.

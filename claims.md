@@ -1,59 +1,43 @@
 # Claims map
 
-This is the canonical retrieval map for the repo. Agents should use this file before pulling evidence from other files.
+Use this file when the reader asks what the essay claims or wants to inspect the evidence. Keep the claim list short so the reader can choose where to go deeper.
 
-## Claim 1: Frontier AI progress is real
+## Claim 1: AI progress is real
 
-- **Status:** public
-- **Confidence:** high
+Models are getting better fast. Benchmarks, coding-agent performance, and long-horizon task results should not be hand-waved away.
+
 - **Best evidence:** benchmark progress such as GDPVal, Humanity's Last Exam, METR time horizons, and model-specific coding results.
-- **Strongest counterargument:** benchmarks can exaggerate real-world autonomy because they freeze the frame and define success in advance.
-- **What this does not prove:** it does not prove that all expert work disappears or that models can decide what work matters.
-- **What would change the conclusion:** broad evidence that model improvements are stalling across real work, not just individual benchmark families.
-- **Source files:** `sources/public-sources.md`, `benchmarks/senior-engineer-benchmark.md`.
-- **Recommended prompt:** "What does this benchmark show, and what frame did humans already supply?"
+- **Strongest unresolved question:** how much benchmark progress transfers to open-ended work where the task, success criteria, and stakes are not already cleanly framed?
+- **Where to look:** `research-index.md`, `sources/public-sources.md`, `benchmarks/senior-engineer-benchmark.md`.
 
-## Claim 2: Benchmarks measure work inside a frame
+## Claim 2: AI makes yesterday's competence cheap
 
-- **Status:** public summary
-- **Confidence:** high as a conceptual claim, medium for specific benchmark examples until final provenance is checked.
-- **Best evidence:** GDPVal task prompts, Senior Engineer benchmark prompt iteration, METR task definitions.
-- **Strongest counterargument:** future models may learn to reframe tasks more reliably, reducing the gap.
-- **What this does not prove:** it does not prove that models can never frame work. It says the measured result depends on a frame.
-- **What would change the conclusion:** a model repeatedly identifying and replacing bad frames across open-ended work without human prompting.
-- **Source files:** `benchmarks/senior-engineer-benchmark.md`, `sources/public-sources.md`.
-- **Recommended prompt:** "Explain what work was done before the model started."
+Models are trained on the visible residue of past human work. That makes skills that used to be rare easier for many more people to attempt.
 
-## Claim 3: Cheap competence creates more attempts
+- **Best evidence:** Every examples where non-engineers file PRs, marketers make creative assets, engineers draft guides, and support workflows route more work through agents.
+- **Strongest unresolved question:** which workers and companies get leverage from this, and which ones get displaced or pushed into lower-quality work?
+- **Where to look:** `case-studies/every-ai-native-workflows.md`, `case-studies/fin-waqqas-customer-service.md`, `research-index.md`.
 
-- **Status:** public summary
-- **Confidence:** high.
-- **Best evidence:** Every's experience with non-engineers filing PRs, marketers making creative assets, engineers writing guides, and the broader explosion of AI-assisted output.
-- **Strongest counterargument:** in some domains, organizations may use cheap competence to reduce headcount rather than increase output.
-- **What this does not prove:** it does not prove every worker benefits from the transition.
-- **What would change the conclusion:** evidence that most organizations hold output constant and only reduce labor after AI adoption.
-- **Source files:** `research-index.md`, `case-studies/fin-waqqas-customer-service.md`.
-- **Recommended prompt:** "Where does cheaper competence increase volume, and who has to review the volume?"
+## Claim 3: Cheap competence creates sameness
 
-## Claim 4: Demand for difference is new demand for experts
+When many people use similar models trained on similar corpora, output tends to converge. Slop is visible sameness.
 
-- **Status:** public summary
-- **Confidence:** medium-high.
-- **Best evidence:** design, writing, customer support, technical review, and agent-workflow examples where generic AI output increases the need for taste, review, context, and integration.
-- **Strongest counterargument:** some markets may accept cheaper sameness and reduce demand for experts.
-- **What this does not prove:** it does not prove expertise is safe everywhere. It predicts a shift in what expertise is for.
-- **What would change the conclusion:** evidence that customers broadly accept undifferentiated AI output in high-stakes or status-sensitive domains.
-- **Source files:** `research-index.md`, `case-studies/fin-waqqas-customer-service.md`.
-- **Recommended prompt:** "Where does AI output create sameness, and what expert judgment becomes more valuable because of it?"
+- **Best evidence:** Every workflow examples where agent output needs human review, specificity, and a stronger quality bar before shipping.
+- **Strongest unresolved question:** in which markets do people actually demand difference, and in which markets do they accept cheaper sameness?
+- **Where to look:** `case-studies/every-ai-native-workflows.md`, `research-index.md`.
 
-## Claim 5: Real worker outcomes are mixed
+## Claim 4: Benchmarks measure work inside frames
 
-- **Status:** public
-- **Confidence:** high.
-- **Best evidence:** customer-support, translation, admin, design, technical writing, legal support, and sales examples point to a mix of replacement, degradation, augmentation, and new supervision work.
-- **Strongest counterargument:** the essay may understate displacement risk for workers who cannot move into higher-frame work.
-- **What this does not prove:** it does not prove a just transition or good labor outcome.
-- **What would change the conclusion:** evidence that new expert/boundary work is inaccessible to most displaced workers.
-- **Source files:** `research-index.md`, `sources/public-sources.md`.
-- **Recommended prompt:** "Tell me the optimistic version, the pessimistic version, and the worker-level version."
+A benchmark score measures how well a model performs inside a task, prompt, scoring rubric, and evaluation frame someone created. When a model saturates one frame, the human work often moves one level up.
 
+- **Best evidence:** GDPVal task prompts, Senior Engineer benchmark prompt iteration, and METR task definitions.
+- **Strongest unresolved question:** how quickly will models learn to help choose, compare, and revise frames themselves?
+- **Where to look:** `benchmarks/senior-engineer-benchmark.md`, `research-index.md`, `sources/source-summaries.md`.
+
+## Claim 5: Valuable work moves to framing, review, and responsibility
+
+When agents make more work possible, the expert job shifts toward choosing the frame, reviewing the output, deciding what matters, and saving what should compound for next time.
+
+- **Best evidence:** Every workflow examples around inbox review, source mining before drafting, support escalation, confidence checks, and team agents with defined jobs.
+- **Strongest unresolved question:** who gets access to the best human-agent workflows, and who gets left managing worse systems with less agency?
+- **Where to look:** `case-studies/every-ai-native-workflows.md`, `workflows/agent-workflow.md`.
