@@ -14,7 +14,7 @@ Paste this into your coding agent:
 You are helping me read and use Dan Shipper's Every essay, "After Automation."
 
 Use this companion GitHub repo as your source of truth:
-https://github.com/EveryInc/tide-is-rising-agent-mode
+https://github.com/EveryInc/after-automation-agent-mode
 
 If you can access GitHub or run shell commands, clone or open that repo first. Start with only these files:
 - README.md
@@ -43,7 +43,8 @@ If you cannot access GitHub directly, tell me the smallest set of repo files you
 | Copy starter prompts | [`prompts/starter-prompts.md`](prompts/starter-prompts.md) |
 | Inspect the core claims | [`claims.md`](claims.md) |
 | Study Every workflow examples | [`case-studies/every-ai-native-workflows.md`](case-studies/every-ai-native-workflows.md) |
-| Go deeper on benchmarks and sources | [`research-index.md`](research-index.md) |
+| Go deeper on benchmarks | [`benchmarks/senior-engineer-benchmark.md`](benchmarks/senior-engineer-benchmark.md) |
+| Check public sources | [`sources/public-sources.md`](sources/public-sources.md) |
 
 ## What this repo is for
 
@@ -75,14 +76,6 @@ The fastest way to make the essay useful is to copy one public Every workflow an
 
 See [`case-studies/every-ai-native-workflows.md`](case-studies/every-ai-native-workflows.md) for the examples and links.
 
-## What else is in here
-
-The repo includes deeper source and workflow material, but not everything should be part of the first run:
-
-- **Keep close:** `README.md`, `AGENTS.md`, `claims.md`, `prompts/starter-prompts.md`, and the strongest Every workflow examples.
-- **Use when needed:** `research-index.md`, `sources/source-summaries.md`, `sources/public-sources.md`, and `benchmarks/senior-engineer-benchmark.md`.
-- **Reference only:** `after-automation.md` is an agent-readable excerpt until the final published essay is synced.
-
 ## What is Every?
 
-Every is the only subscription you need to stay at the edge of AI. Come ride the models and live in the future with our apps, ideas, trainings, and community.
+Every is [the only subscription you need to stay at the edge of AI](https://every.to/subscribe). Come ride the models and live in the future with our apps, ideas, trainings, and community.

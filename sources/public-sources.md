@@ -1,9 +1,12 @@
 # Public sources
 
-This file should contain public sources only. Do not add workspace links, tokenized Proof links, customer-support records, finance records, or nonpublic document links.
+This file collects public sources an agent can use to inspect the argument in **After Automation**. It leaves out private working docs, Slack threads, local files, customer records, and finance records.
 
 ## Every sources
 
+These are useful for understanding how Every works with agents in practice.
+
+- [Every subscription](https://every.to/subscribe)
 - [Compound Engineering guide](https://every.to/guides/compound-engineering)
 - [Agent-native Architecture guide](https://every.to/guides/agent-native)
 - [Agent-native Product Management guide](https://every.to/guides/ai-product-management-guide)
@@ -22,24 +25,49 @@ This file should contain public sources only. Do not add workspace links, tokeni
 - [Mini-Vibe Check: Claude Design Isn't for Designers-Yet](https://every.to/context-window/mini-vibe-check-claude-design)
 - [You're the Manager Now](https://every.to/context-window/you-re-the-manager-now)
 - [The Folder Is the Agent](https://every.to/source-code/the-folder-is-the-agent)
-- [Vibe Code Camp](https://www.youtube.com/watch?v=5YBjll9XJlw)
 - [Introducing Proof](https://every.to/on-every/introducing-proof)
 - [Smuggled Intelligence](https://every.to/chain-of-thought/smuggled-intelligence)
 - [How OpenAI's Codex Team Uses Their Coding Agent](https://every.to/podcast/how-openai-s-codex-team-uses-their-coding-agent)
 
-## External sources
+## Benchmarks and model capability
 
-- [NBER: Measuring the Productivity Impact of Generative AI](https://www.nber.org/digest/measuring-productivity-impact-generative-ai)
-- [Gartner: Customer Service Workforce Reduction and AI](https://www.gartner.com/en/newsroom/press-releases/2025-06-10-gartner-predicts-50-percent-of-organizations-will-abandon-plans-to-reduce-customer-service-workforce-due-to-ai)
-- [AP: AI Chatbots and Customer Service](https://apnews.com/article/artificial-intelligence-chatbot-customer-service-call-center-ca87ae77d7c6797ebb2628bd1b532929)
-- [ABC: CBA backtracks on AI job cuts](https://www.abc.net.au/news/2025-08-21/cba-backtracks-on-ai-job-cuts-as-chatbot-lifts-call-volumes/105679492)
+Use these sources when inspecting the claim that AI progress is real, and that benchmark scores depend on task framing.
+
+- [OpenAI: GDPval](https://openai.com/index/gdpval/)
+- [OpenAI: GDPval evaluations dataset](https://github.com/openai/gdpval)
+- [Humanity's Last Exam](https://arxiv.org/abs/2501.14249)
+- [METR: Measuring AI ability to complete long tasks](https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/)
 - [AI 2027: Race](https://ai-2027.com/race)
+- [Thinking Machines: Defining AGI](https://thinkingmachines.ai/blog/defining-agi/)
+- [Anthropic Economic Index](https://www.anthropic.com/economic-index)
 
-## Needs final URL verification
+## Labor and job-impact context
 
-- METR task-completion time horizons.
-- Humanity's Last Exam dated leaderboard.
-- GDPVal task prompt and methodology.
-- Senior Engineer benchmark packet, if made public.
-- Exact quote/source for William James.
-- Exact quote/source for Werner Heisenberg.
+Use these sources when inspecting the public fear that AI will replace large categories of white-collar work.
+
+- [Axios: Anthropic CEO warns AI could wipe out half of entry-level white-collar jobs](https://www.axios.com/2025/05/28/anthropic-amodei-ai-jobs-warning)
+- [Pew Research Center: How Americans view AI and jobs](https://www.pewresearch.org/short-reads/2025/02/26/how-americans-view-ai-and-jobs/)
+- [Bessemer: State of the Cloud](https://www.bvp.com/atlas/state-of-the-cloud)
+- [NBER: Measuring the productivity impact of generative AI](https://www.nber.org/digest/measuring-productivity-impact-generative-ai)
+- [Indeed Hiring Lab: AI at Work report](https://www.hiringlab.org/wp-content/uploads/2025/09/Indeed-Hiring-Lab-AI-at-Work-Report.pdf)
+- [Gartner: Organizations abandoning plans to reduce customer service workforce due to AI](https://www.gartner.com/en/newsroom/press-releases/2025-06-10-gartner-predicts-50-percent-of-organizations-will-abandon-plans-to-reduce-customer-service-workforce-due-to-ai)
+- [AP: AI chatbots and customer service](https://apnews.com/article/artificial-intelligence-chatbot-customer-service-call-center-ca87ae77d7c6797ebb2628bd1b532929)
+- [ABC: CBA backtracks on AI job cuts](https://www.abc.net.au/news/2025-08-21/cba-backtracks-on-ai-job-cuts-as-chatbot-lifts-call-volumes/105679492)
+
+## Sameness, slop, and human framing
+
+Use these sources when inspecting the claim that cheap competence creates more sameness and more demand for human framing.
+
+- [David Oks: Notes on AI slop](https://www.davidoks.com/ai-slop/)
+- [OpenAI: Why language models hallucinate](https://openai.com/index/why-language-models-hallucinate/)
+- [Thinking Machines: Interaction design for AI systems](https://thinkingmachines.ai/blog/interaction-design/)
+- [Royal Society: AI for scientific discovery](https://royalsociety.org/news-resources/projects/science-in-the-age-of-ai/)
+- [New York Times: Writers and publishers adapt to AI](https://www.nytimes.com/2025/05/14/business/media/freelance-writers-ai.html)
+- [Futurism: Publishers issue AI rules for freelancers](https://futurism.com/publishers-ai-rules-freelancers)
+
+## Public market context
+
+Use these sources when inspecting the claim that software markets are already reacting to AI.
+
+- [SaaStr: The SaaS rout](https://www.saastr.com/the-saas-rout/)
+- [Fortune: OpenAI benchmark GDPval suggests AI is catching up to experts](https://fortune.com/2025/09/30/ai-models-are-already-as-good-as-experts-at-half-of-tasks-a-new-openai-benchmark-gdpval-suggests/)
