@@ -27,10 +27,10 @@ Do not answer from the essay alone. Use the repo to help me do one useful thing 
 
 Start by giving me:
 1. the cleanest version of the core claim;
-2. the part of the argument most relevant to what you know about me;
-3. one prompt I should run next based on my work, context, and goals.
+2. the part of the argument most relevant to what you know about me, if you have enough context;
+3. otherwise, the most useful prompt from the repo to start with.
 
-If I ask to inspect evidence, then read the source and research files. If I ask to apply the essay to my work, inspect available workspace context before interviewing me.
+If I ask to inspect evidence, then read `claims.md`, `sources/public-sources.md`, and `benchmarks/senior-engineer-benchmark.md`. If I ask to apply the essay to my work, inspect available workspace context before interviewing me.
 
 If you cannot access GitHub directly, tell me the smallest set of repo files you need me to paste before you continue.
 ```

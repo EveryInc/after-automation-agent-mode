@@ -34,7 +34,7 @@ These are useful for understanding how Every works with agents in practice.
 Use these sources when inspecting the claim that AI progress is real, and that benchmark scores depend on task framing.
 
 - [OpenAI: GDPval](https://openai.com/index/gdpval/)
-- [OpenAI: GDPval evaluations dataset](https://github.com/openai/gdpval)
+- [OpenAI: GDPval evaluations dataset](https://huggingface.co/datasets/openai/gdpval)
 - [Humanity's Last Exam](https://arxiv.org/abs/2501.14249)
 - [METR: Measuring AI ability to complete long tasks](https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/)
 - [AI 2027: Race](https://ai-2027.com/race)
