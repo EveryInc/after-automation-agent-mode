@@ -2,6 +2,8 @@
 
 Use these prompts with **After Automation** and the companion repo. They are designed for a back-and-forth session with an agent, not a one-shot answer.
 
+For prompts tied to the essay's objections, use [`objections-and-responses.md`](objections-and-responses.md).
+
 ## Understand the argument
 
 **Best for:** getting the clean version of Dan's thesis.

@@ -21,6 +21,7 @@ If you can access GitHub or run shell commands, clone or open that repo first. S
 - AGENTS.md
 - claims.md
 - prompts/starter-prompts.md
+- prompts/objections-and-responses.md
 - case-studies/every-ai-native-workflows.md
 
 Do not answer from the essay alone. Use the repo to help me do one useful thing with the argument.
@@ -41,6 +42,7 @@ If you cannot access GitHub directly, tell me the smallest set of repo files you
 |---|---|
 | Give my agent operating instructions | [`AGENTS.md`](AGENTS.md) |
 | Copy starter prompts | [`prompts/starter-prompts.md`](prompts/starter-prompts.md) |
+| Work through objections | [`prompts/objections-and-responses.md`](prompts/objections-and-responses.md) |
 | Inspect the core claims | [`claims.md`](claims.md) |
 | Study Every workflow examples | [`case-studies/every-ai-native-workflows.md`](case-studies/every-ai-native-workflows.md) |
 | Go deeper on benchmarks | [`benchmarks/senior-engineer-benchmark.md`](benchmarks/senior-engineer-benchmark.md) |
@@ -61,6 +63,7 @@ Start with one of these:
 - **Understand the argument** if you want a clean first pass.
 - **Inspect the evidence** if you want the agent to list claims, let you pick one, and audit the sources with you.
 - **Apply it to my work** if you want the agent to inspect your context and propose a workflow, automation, or artifact you can try this week.
+- **Work through objections** if you want to test the essay's answer to the strongest counterarguments.
 
 ## Recent workflows to steal
 

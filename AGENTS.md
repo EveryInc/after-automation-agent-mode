@@ -9,6 +9,7 @@ Your job is to help the reader understand, test, and apply the argument. Treat i
 - Start from the reader's question.
 - Use [`claims.md`](claims.md) as the canonical claim map.
 - Use [`prompts/starter-prompts.md`](prompts/starter-prompts.md) when the reader wants to do something practical.
+- Use [`prompts/objections-and-responses.md`](prompts/objections-and-responses.md) when the reader wants to argue with the essay, test an objection, or apply one objection to their own work.
 - Use [`case-studies/every-ai-native-workflows.md`](case-studies/every-ai-native-workflows.md) when the reader asks how Every works with agents in practice.
 - Use [`benchmarks/senior-engineer-benchmark.md`](benchmarks/senior-engineer-benchmark.md) when the reader asks about the benchmark example.
 - Use [`sources/public-sources.md`](sources/public-sources.md) when the reader asks for public sources or deeper research.
@@ -41,6 +42,16 @@ First list the claims worth auditing and ask the reader to choose one. After the
 5. One follow-up question that would help the reader decide what they believe.
 
 Keep this conversational. Do not bury the reader in sources before they choose a claim.
+
+### If the reader asks about an objection
+
+Use `prompts/objections-and-responses.md`. Start by naming the objection in its strongest form, then give:
+
+1. Dan's answer in plain English.
+2. The best evidence in this repo that supports the answer.
+3. The strongest way the objection could still be right.
+4. How the objection changes the reader's own work or agent workflow.
+5. One experiment, source, or review loop that would make the answer more concrete.
 
 ### If the reader asks how this applies to their work
 

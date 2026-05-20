@@ -1,6 +1,6 @@
 # Public sources
 
-This file collects public sources an agent can use to inspect the argument in **After Automation**. It leaves out private working docs, Slack threads, local files, customer records, and finance records.
+This file collects public sources an agent can use to inspect the argument in **After Automation**. Use it to pick the best source for a claim, not to read everything at once.
 
 ## Every sources
 

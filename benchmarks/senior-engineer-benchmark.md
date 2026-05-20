@@ -1,6 +1,6 @@
 # Senior Engineer benchmark
 
-This file is the public-safe source packet for the Senior Engineer benchmark example in **After Automation**.
+This file is a short guide to the Senior Engineer benchmark example in **After Automation**.
 
 Use it when a reader asks what the benchmark shows, what it does not show, or why Dan's argument about "frames" matters.
 
@@ -36,13 +36,13 @@ It is fair to use this as an example of how benchmark performance depends on fra
 
 It is also fair to say the benchmark is built around a frozen production codebase and a senior-engineer-style rewrite task.
 
-Do not treat this file as the complete benchmark release. If someone wants to cite exact scores, compare model runs, or reproduce the benchmark, the public packet still needs the underlying materials.
+Do not treat this file as a complete benchmark release. If someone wants to cite exact scores, compare model runs, or reproduce the benchmark, they need the underlying materials.
 
-## What the full source packet should include
+## What a reproducible benchmark release would need
 
-Before the benchmark is presented as reproducible public evidence, publish or attach:
+To treat the benchmark as reproducible public evidence, a release would need:
 
-- the frozen codebase snapshot or a public-safe substitute;
+- the frozen codebase snapshot or a shareable substitute;
 - the exact benchmark prompts that were run;
 - model names, dates, settings, and run labels;
 - the scoring rubric;
@@ -59,4 +59,4 @@ If a reader asks about the Senior Engineer benchmark, answer with the distinctio
 2. The result still depends on the frame humans supplied.
 3. The next layer of human work is choosing the right frame, deciding whether the rewrite should happen, protecting the invariants, managing migration, and owning the production outcome.
 
-If the reader asks for proof of an exact score, say the exact-score packet is not included here and point to the list above.
+If the reader asks for proof of an exact score, say those materials are not included here and point to the list above.
