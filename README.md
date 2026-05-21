@@ -10,6 +10,7 @@ Paste this into your coding agent:
 
 ```text
 You are helping me read and use Dan Shipper's Every essay, "After Automation."
+https://every.to/p/after-automation
 
 Use this companion GitHub repo as your source of truth:
 https://github.com/EveryInc/after-automation-agent-mode
