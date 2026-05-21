@@ -1,12 +1,13 @@
 # Objections and responses prompts
 
-Use these prompts when a reader wants to test **After Automation** instead of just summarize it. Each prompt asks the agent to steelman the objection, explain Dan's answer, inspect the companion repo, and turn the result into a practical next step.
+Use these prompts when a reader wants to test **[After Automation](https://every.to/p/after-automation)** instead of just summarize it. Each prompt asks the agent to steelman the objection, explain Dan's answer, inspect the companion repo, and turn the result into a practical next step.
 
 ## Can't AI produce differentiated work if prompted correctly?
 
 ```text
 Use "After Automation" and this companion repo:
 https://github.com/EveryInc/after-automation-agent-mode
+https://every.to/p/after-automation
 
 Objection: Can't AI produce differentiated work if it is prompted correctly?
 
@@ -27,6 +28,7 @@ Return:
 ```text
 Use "After Automation" and this companion repo:
 https://github.com/EveryInc/after-automation-agent-mode
+https://every.to/p/after-automation
 
 Objection: What about a model prompting another model? Doesn't that move the human out of the loop?
 
@@ -47,6 +49,7 @@ Return:
 ```text
 Use "After Automation" and this companion repo:
 https://github.com/EveryInc/after-automation-agent-mode
+https://every.to/p/after-automation
 
 Objection: Can't differentiated work just be trained into the next model?
 
@@ -67,6 +70,7 @@ Return:
 ```text
 Use "After Automation" and this companion repo:
 https://github.com/EveryInc/after-automation-agent-mode
+https://every.to/p/after-automation
 
 Objection: What about continuous learning? If a model watches me and learns from what I do, doesn't it eventually replace my judgment?
 
@@ -87,6 +91,7 @@ Return:
 ```text
 Use "After Automation" and this companion repo:
 https://github.com/EveryInc/after-automation-agent-mode
+https://every.to/p/after-automation
 
 Objection: What about AGI, instrumental convergence, or recursive improvement? Doesn't the argument break if models become persistent, self-improving systems with goals of their own?
 
@@ -107,6 +112,7 @@ Return:
 ```text
 Use "After Automation" and this companion repo:
 https://github.com/EveryInc/after-automation-agent-mode
+https://every.to/p/after-automation
 
 Objection: Where should we actually worry? Are there jobs, domains, or institutions where AI progress really does reduce human work instead of creating more of it?
 
