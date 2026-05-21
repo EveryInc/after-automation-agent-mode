@@ -1,6 +1,6 @@
 # After Automation: Agent Mode
 
-This repo is the companion workflow for Dan Shipper's Every essay, **After Automation**. Use it with Codex, Claude Code, OpenClaw, or another coding agent to turn the essay into a working session.
+This repo is the companion workflow for [Dan Shipper's Every essay, **After Automation**](https://every.to/p/after-automation). Use it with Codex, Claude Code, OpenClaw, or another coding agent to turn the essay into a working session.
 
 The essay starts from a paradox: Every has automated everything it can, and yet there is more human work to do than ever. Dan's argument is that AI makes yesterday's competence cheap. Cheap competence creates more attempts. More attempts create sameness. Sameness creates new demand for human framing, judgment, review, and specificity.
 
