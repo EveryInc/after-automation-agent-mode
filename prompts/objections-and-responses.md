@@ -17,7 +17,7 @@ Help me test that answer.
 Return:
 1. the strongest version of the objection;
 2. Dan's answer in plain English;
-3. the best evidence in `claims.md`, `case-studies/every-ai-native-workflows.md`, and `benchmarks/senior-engineer-benchmark.md` that supports or weakens the answer;
+3. the best evidence in `the repo that supports or weakens the answer;
 4. where the answer might fail in my own work;
 5. one workflow experiment I can run this week to see whether better prompting replaces my judgment or makes my judgment more important.
 ```
@@ -38,7 +38,7 @@ Return:
 1. the strongest version of the objection;
 2. Dan's answer in plain English;
 3. what evidence in the repo supports the idea that agents need owners, boundaries, and review loops;
-4. the strongest case that autonomous agent chains could reduce the human role more than Dan admits;
+4. the strongest case that autonomous agent chains could reduce the human role
 5. one practical design rule for when I should let agents supervise agents, and one rule for when a human must stay in the review loop.
 ```
 
@@ -118,31 +118,6 @@ Return:
 1. the strongest version of the worry;
 2. Dan's answer in plain English;
 3. which parts of the argument apply strongly to this domain and which parts do not;
-4. what evidence from `claims.md` and `sources/public-sources.md` helps evaluate the worry;
-5. one example where AI probably creates more human work, and one example where it may genuinely reduce the need for human labor;
-6. what a responsible team should do next if they are operating in the risky domain.
-```
-
-## Run all objections
-
-```text
-Use "After Automation" and this companion repo:
-https://github.com/EveryInc/after-automation-agent-mode
-
-Walk me through the essay's main objections:
-- AI can produce differentiated work if prompted correctly.
-- One model can prompt another model.
-- Differentiated work can be trained into the next model.
-- Continuous learning can absorb what humans do.
-- AGI, instrumental convergence, or recursive improvement changes the situation.
-- Some jobs or domains may still be worth worrying about.
-
-For each one, give me:
-1. the strongest version of the objection;
-2. Dan's answer;
-3. the best supporting evidence in the repo;
-4. the best remaining counterargument;
-5. what would change in my own work if the objection is right.
-
-End by telling me which objection is strongest and what experiment or source would most change your mind.
+4. one example where AI probably creates more human work, and one example where it may genuinely reduce the need for human labor;
+5. what a responsible team should do next if they are operating in the risky domain.
 ```
