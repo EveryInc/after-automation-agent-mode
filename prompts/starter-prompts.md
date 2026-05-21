@@ -1,6 +1,6 @@
 # Starter prompts
 
-Use these prompts with **After Automation** and the companion repo. They are designed for a back-and-forth session with an agent, not a one-shot answer.
+Use these prompts with **After Automation** and the companion repo. They are designed for a back-and-forth session with an agent.
 
 For prompts tied to the essay's objections, use [`objections-and-responses.md`](objections-and-responses.md).
 
@@ -9,9 +9,7 @@ For prompts tied to the essay's objections, use [`objections-and-responses.md`](
 **Best for:** getting the clean version of Dan's thesis.
 
 ```text
-Use "After Automation" and the companion repo to explain the argument in 10 bullets. Then give me the cleanest one-sentence version of the thesis.
-
-Do not turn this into a generic AI summary. Preserve the paradox: Every uses AI aggressively and still has more human work to do.
+Use "After Automation" and the companion repo to explain the argument in 10 bullets. Do not turn this into a generic AI summary. Preserve the paradox: Every uses AI aggressively and still has more human work to do.
 ```
 
 ## Inspect the evidence
