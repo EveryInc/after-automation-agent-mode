@@ -1,6 +1,6 @@
 # Every AI-native workflows
 
-These are public patterns from how Every works with agents. They are included so readers can steal the operating model, not just read about it.
+These are public patterns from how Every works with agents.
 
 ## The common pattern
 
