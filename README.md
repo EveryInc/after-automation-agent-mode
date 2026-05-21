@@ -31,7 +31,7 @@ Start by giving me:
 2. the part of the argument most relevant to what you know about me, if you have enough context;
 3. otherwise, the most useful prompt from the repo to start with.
 
-If I ask to inspect evidence, then read `claims.md`, `sources/public-sources.md`, and `benchmarks/senior-engineer-benchmark.md`. If I ask to apply the essay to my work, inspect available workspace context before interviewing me.
+If I ask to inspect evidence, then read `claims.md` and `sources/public-sources.md`. If I ask to apply the essay to my work, inspect available workspace context before interviewing me.
 
 If you cannot access GitHub directly, tell me the smallest set of repo files you need me to paste before you continue.
 ```
@@ -45,7 +45,6 @@ If you cannot access GitHub directly, tell me the smallest set of repo files you
 | Work through objections | [`prompts/objections-and-responses.md`](prompts/objections-and-responses.md) |
 | Inspect the core claims | [`claims.md`](claims.md) |
 | Study Every workflow examples | [`case-studies/every-ai-native-workflows.md`](case-studies/every-ai-native-workflows.md) |
-| Go deeper on benchmarks | [`benchmarks/senior-engineer-benchmark.md`](benchmarks/senior-engineer-benchmark.md) |
 | Check public sources | [`sources/public-sources.md`](sources/public-sources.md) |
 
 ## What this repo is for

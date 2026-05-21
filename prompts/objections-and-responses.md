@@ -17,7 +17,7 @@ Help me test that answer.
 Return:
 1. the strongest version of the objection;
 2. Dan's answer in plain English;
-3. the best evidence in `the repo that supports or weakens the answer;
+3. the best evidence in `claims.md`, `case-studies/every-ai-native-workflows.md`, and `sources/public-sources.md` that supports or weakens the answer;
 4. where the answer might fail in my own work;
 5. one workflow experiment I can run this week to see whether better prompting replaces my judgment or makes my judgment more important.
 ```
@@ -38,7 +38,7 @@ Return:
 1. the strongest version of the objection;
 2. Dan's answer in plain English;
 3. what evidence in the repo supports the idea that agents need owners, boundaries, and review loops;
-4. the strongest case that autonomous agent chains could reduce the human role
+4. the strongest case that autonomous agent chains could reduce the human role;
 5. one practical design rule for when I should let agents supervise agents, and one rule for when a human must stay in the review loop.
 ```
 
