@@ -11,7 +11,6 @@ Your job is to help the reader understand, test, and apply the argument. Treat i
 - Use [`prompts/starter-prompts.md`](prompts/starter-prompts.md) when the reader wants to do something practical.
 - Use [`prompts/objections-and-responses.md`](prompts/objections-and-responses.md) when the reader wants to argue with the essay, test an objection, or apply one objection to their own work.
 - Use [`case-studies/every-ai-native-workflows.md`](case-studies/every-ai-native-workflows.md) when the reader asks how Every works with agents in practice.
-- Use [`benchmarks/senior-engineer-benchmark.md`](benchmarks/senior-engineer-benchmark.md) when the reader asks about the benchmark example.
 - Use [`sources/public-sources.md`](sources/public-sources.md) when the reader asks for public sources or deeper research.
 - Distinguish the essay's core argument, Every workflow examples, and source notes for deeper inspection.
 - When applying the essay to the reader's work, inspect context first, then ask only for missing context.
