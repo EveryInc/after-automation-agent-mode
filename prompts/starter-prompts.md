@@ -1,6 +1,6 @@
 # Starter prompts
 
-Use these prompts with **After Automation** and the companion repo. They are designed for a back-and-forth session with an agent.
+Use these prompts with **[After Automation](https://every.to/p/after-automation)** and the companion repo. They are designed for a back-and-forth session with an agent.
 
 For prompts tied to the essay's objections, use [`objections-and-responses.md`](objections-and-responses.md).
 
@@ -10,6 +10,7 @@ For prompts tied to the essay's objections, use [`objections-and-responses.md`](
 
 ```text
 Use "After Automation" and the companion repo to explain the argument in 10 bullets. Do not turn this into a generic AI summary. Preserve the paradox: Every uses AI aggressively and still has more human work to do.
+https://every.to/p/after-automation
 ```
 
 ## Inspect the evidence
@@ -18,6 +19,7 @@ Use "After Automation" and the companion repo to explain the argument in 10 bull
 
 ```text
 Use the companion repo to help me inspect the evidence behind "After Automation."
+https://every.to/p/after-automation
 
 First, list 5-7 important claims from the essay that are worth auditing. For each one, give me a short label and one sentence on why it matters. Then ask me which claim I want to inspect.
 
@@ -36,6 +38,7 @@ Keep it conversational. Do not defend the essay by default, and do not bury me i
 
 ```text
 I want to apply "After Automation" to my own work.
+https://every.to/p/after-automation
 
 If you have access to my workspace, first inspect context before interviewing me: recent project files, README or AGENTS instructions, docs, notes, commits, issue lists, calendars, or other connected tools that show how I actually work.
 
