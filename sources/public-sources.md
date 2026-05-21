@@ -1,6 +1,6 @@
 # Public sources
 
-This file collects public sources an agent can use to inspect the argument in **After Automation**. Use it to pick the best source for a claim, not to read everything at once.
+This file collects public sources an agent can use to inspect the argument in **After Automation**. Use it to pick the best source for a claim.
 
 ## Every sources
 
